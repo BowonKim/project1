@@ -55,7 +55,7 @@ hr {
     padding-top: 10px;
 }
 
-.menu-btn li{
+.menu-btn a {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 10px;
@@ -63,25 +63,24 @@ hr {
     transition: 0.3s ease;
 }
 
-.menu-btn li:hover {
+.menu-btn a:hover {
     background-color: #5080bf;
     color: white;
 }
 
-.nav-btn{
+.nav-btn {
     text-align: center;
 }
 
-.nav-btn li{
+.nav-btn a {
     display: inline-block;
-    margin:0 20px;
+    margin: 0 20px;
     padding: 5px 10px;
     color: #5080bf;
     transition: 0.3s ease;
 }
 
-
-.nav-btn li, .about {
+.nav-btn a, .about {
     color: black;
     background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
     background-position: 0 100%;
@@ -90,7 +89,7 @@ hr {
     transition: 0.5s ease;
 }
 
-.nav-btn li:hover, .about:hover {
+.nav-btn a:hover, .about:hover {
     color: white;
     background-size: 4px 50px;
 }
