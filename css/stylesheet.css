@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/*layouts*/
+
+* {
+    margin: 0;
+}
+
+:root {
+    --mainColor: #5080bf;
+}
+
+html, body {
+    max-width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-color {
+    width: 100%;
+    background-color: #EFF4FF;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+hr {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*Navigation*/
+
+.menu-btn {
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.menu-btn li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #5080bf;
+    transition: 0.3s ease;
+}
+
+.menu-btn li:hover {
+    background-color: #5080bf;
+    color: white;
+}
+
+/*Profile Section*/
+
+.profile {
+    padding-bottom: 300px;
+    background: #f5feff;
+}
+
+.about {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+
+.about {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    transition: 0.5s ease;
+}
+
+.about:hover {
+    color: white;
+    background-size: 4px 33px;
+}
+
+.profile-text {
+    position: relative;
+    top: 200px;
+    float: right;
+    width: 50%;
+}
+
+.profile-text h1 {
+    font-family: 'Pangolin', cursive;
+    font-size: 60px;
+    color: #5080bf;
+}
+
+.mypicture {
+    position: relative;
+    background: #fafafa;
+    background: url("images/bowonKim.jpg");
+    width: 40%;
+    height: 700px;
+    float: left;
+}
+
+.bowon {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+}
+
+.arrow1 {
+    width: 100px;
+    position: absolute;
+    top: -80px;
+    left: -70px;
+    transform: rotate(-20deg);
+}
+
+.tape {
+    width: 220px;
+    position: absolute;
+}
+
+.top {
+    top: -20px;
+    left: -30px;
+}
+
+.bottom {
+    top: 450px;
+    left: 330px;
+}
+
+.profile-winnie {
+    position: relative;
+}
+
+.winnie {
+    width: 400px;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+}
+
+.profile-winnie .tape {
+    width: 200px;
+    position: absolute;
+}
+
+.profile-winnie .top {
+    top: 540px;
+    left: 530px;
+}
+
+.profile-winnie .bottom {
+    top: 920px;
+    left: 890px;
+}
+
+.winnie-text {
+    position: relative;
+    top: 30px;
+    left: 120px;
+    width: 40%;
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+    color: #5080bf;
+}
+
+.arrow2 {
+    width: 100px;
+    position: absolute;
+    top: 700px;
+}
