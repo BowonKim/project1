@@ -124,12 +124,8 @@ table {
 
 /*Contact*/
 
-.contact-box td {
-    padding: 5px;
-}
-
-.contact-box td:first-child {
-    background-color: lightpink;
+table a{
+    color: #5080bf;
 }
 
 .contact {
